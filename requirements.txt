@@ -1,0 +1,66 @@
+Functional requirement 10 :
+
+ - Description
+The system must predict the dangers of the disease in the future if it poses a danger to the patient or those around him
+
+ -Input
+The diagnosis made by the specialist doctor after examining the patient
+
+- Processing
+On the basis of reading the diagnosis, the system determines if the disease poses a threat to the patient or those around him
+
+- Output
+Inform the system of danger in this case
+
+
+
+Functional requirement 11 :
+
+- Description :
+The system makes a record of patients and follows up on their condition
+
+- Input:
+Patient information that was entered by the patient upon registration
+And the diagnosis of Dr
+
+- Processing:
+View the follow-up appointments in the examination and inform the patient of them
+
+- output :
+
+Send a message to the patient with a follow-up appointment
+
+
+Functional requirement 12 :
+
+- Description :
+Inform the system of danger in this case
+
+- Input:
+Diagnosis of the medical specialist in the case
+
+- Processing:
+After the system predicts the dangers of the disease, as soon as there is a condition that poses a danger to itself or to those around it, the system sends an alert to the medical staff
+
+- output :
+Send an alert to the medical staff
+
+Functional requirement 13 :
+
+- Description :
+Monitor the corridors by means of a camera
+
+- Input:
+Surveillance cameras 
+
+- Processing:
+1- The doctor informs the system of some movements that he knows that the patient may pose a danger to himself
+
+- output :
+Send a warning to the medical staff that this situation may pose a danger
+
+
+
+
+
+
