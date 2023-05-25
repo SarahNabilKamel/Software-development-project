@@ -1,0 +1,220 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    background-color: #33d9b2;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-brand
+{
+    margin-left: 4%;
+}
+.navbar-nav
+{
+    margin-left: 67%;
+   
+}
+.navbar-nav li 
+{
+    padding: 1.2%;
+    font-size: 15px;
+    transition: all .9s;
+    
+}
+.home
+{
+    height: 100vh;
+   position: relative;
+}
+
+.search
+{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    width: 45%;
+    text-align: center;
+    position: relative;
+    
+}
+.search_bar{
+ width: 80%;
+ padding: 10px;
+ border: none;
+ display: inline;
+ position: absolute;
+ left: 0;
+ top: 50%;
+ border-radius: 10px;
+}
+.fa-solid{
+ display: inline;
+ width: 14%;
+ padding: 13.5px;
+ color: #fff;
+ position: absolute;
+ right: 38px;
+ top: 50%;
+ background-color: #000;
+ 
+} 
+/* video bg */
+#videoBG {
+   
+    z-index: -10;
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+/* fantasy */
+
+/* footer */
+footer
+{
+    width: 100%;
+   padding: 4% 0;
+    position: relative;
+    bottom: 0;
+    background-color: #33d9b2;
+    color: #fff;
+    text-align: center;
+}
+.last
+{
+ text-align: center;
+}
+.icons i
+{
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: all .5s;
+    cursor: pointer;
+    font-size: 19px;
+}
+.fa-facebook-f:hover{
+    color: blue ;
+}
+.fa-twitter:hover{
+    color: #09c ;
+}
+.fa-google:hover{
+    color: #f00 ;
+}
+.fa-github:hover{
+    color: #aaa ;
+}
+.footer_middle
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.explore
+{
+    width: 30%;
+}
+.last
+{
+    margin-right: 100px;
+    width: 30%;
+}
+.Right
+{
+   position: absolute;
+   bottom: 2%;
+   left: 40%;
+}
+.last h6 a
+{
+    text-decoration: none;
+    color: rgb(153, 30, 30);
+    font-size: 17px;
+    font-style: italic;
+    transition: all .3s;
+
+}
+.last h6 a:hover{
+    color: #09c;
+    text-decoration:underline;
+}
+/* ----------------login page-------------------- */
+.card
+{
+    background-color: rgba(0, 0, 0, .7);
+}
+/* ----------------sign page-------------------- */
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;  
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    /* 1rem=16px     >>>>>>>> */
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+/* ----------------contact page-------------------- */    
+.contact
+{
+   
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 39px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+form  label , input
+{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input ,textarea
+{
+    border: solid .4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color:rgb(26, 24, 24) ;
+    color: #fff;
+}
+label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+#message
+{
+    width: 100%;
+    height: 120px;
+}
+form button
+{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.btn
+{
+    transition: all .7s;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .6);
+}
+.btn:hover{
+    background-color:rgba(0, 0, 0) ;
+}
+
+
+
+
+
+
+
+

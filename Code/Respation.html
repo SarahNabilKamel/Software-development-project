@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hi Respation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="icon" type="image/icon-x" href="image/logo.jpg">
+  <!-- style  -->
+  
+  <link rel="stylesheet" href="css/Respation.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  
+  
+</head>
+
+<body>
+  <!--Header-->  
+      <header class="header">
+
+       <a href="#" class="logo"> <img src="image/logo.jpg" width="30" height= "30">
+         <strong>MentCare</strong> Hospital </a>
+
+       <nav class="navbar">
+           <a href="index.html">home</a>
+           <a href="login.html">Log out</a>
+       </nav>
+
+       <div id="menu-btn" class="fas fa-bars"></div>
+
+     </header> 
+  <!--End Header-->
+
+  <div class="row">
+    <div class="col-3">
+     <!--Sidbar-->
+     <div class="navigation active">
+    <div class="menuToggle">        
+     </div>
+     <ul>
+     <li class="list active" data-cont=".one">
+       <a href="#" style="--clr:#f44336;">
+         <span class="icon"><ion-icon name="calendar-outline"></ion-icon></span>
+         <span class="text">Calendar</span> 
+       </a>
+     </li>
+
+     <li class="list"  data-cont=".two">
+       <a href="#" style="--clr:#ffa117;" >
+         <span class="icon"><ion-icon name="person-add-outline"></ion-icon></span>
+         <span class="text">Register Patient</span> 
+       </a>
+     </li>
+
+     <li class="list"  data-cont=".three">
+       <a href="#" style="--clr:#0fc70f;">
+         <span class="icon"><ion-icon name="create-outline"></ion-icon></span>
+         <span class="text">Edit Patient</span> 
+       </a>
+     </li>
+
+     <li class="list"  data-cont=".four">
+       <a href="#" style="--clr:#2196f3;">
+         <span class="icon"><ion-icon name="bandage-outline"></ion-icon></span>
+         <span class="text"> Appointmenting </span> 
+       </a>
+     </li>
+
+     <li class="list"  data-cont=".six">
+      <a href="#" style="--clr:#f37221;">
+        <span class="icon"><ion-icon name="folder-open-outline"></ion-icon></span>
+        <span class="text"> History of Appointmenting </span> 
+      </a>
+    </li>
+
+
+     <li class="list"  data-cont=".five">
+       <a href="#" style="--clr:#b145e9;">
+         <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+         <span class="text">Profile</span> 
+       </a>
+     </li>
+
+   </ul>    
+ </div>
+ <!--End Sidebar-->
+    </div>
+    <div class="col-9">
+     <div class="content">
+
+      <div class="one">
+        <div class="route" id="index"></div>
+             <div class="route" id="oct-week-3"></div>
+             <div class="route" id="oct-week-4"></div>
+             <div class="route" id="nov-week-1"></div>
+             <div class="route" id="schedule"></div>
+             <main class="cal-device">
+               <header class="cal-header" >
+                 <div class="cal-subheader"></div>
+                 <div class="cal-bar">
+                   <div class="cal-button -left">
+                     <i class="fa fa-bars -calendar" style="color:#fff"></i>
+                     <a href="#index" class="fa fa-chevron-left -schedule"></a>
+                   </div>
+                   <div class="cal-title">
+                     <div class="cal-heading -calendar">Calendar</div>
+                     <div class="cal-heading -schedule">Wednesday, November 10</div>
+                   </div>
+                   <div class="cal-button -right">
+                     <i class="fa fa-search"  style="color:#fff"></i>
+                   </div>
+                 </div>
+               </header>
+               <section class="cal-app">
+                 <header class="cal-week">
+                   <div class="cal-weekday">SUN</div>
+                   <div class="cal-weekday">MON</div>
+                   <div class="cal-weekday">TUE</div>
+                   <div class="cal-weekday">WED</div>
+                   <div class="cal-weekday">THU</div>
+                   <div class="cal-weekday">FRI</div>
+                   <div class="cal-weekday">SAT</div>
+                 </header>
+                 <div class="cal-scene -calendar">
+                   <div class="cal-month -october">
+                     <header class="cal-header">
+                       <a class="cal-link" href="#oct-week-1"><span>October</span></a>
+                       <a class="cal-arrow" href="#nov-week-1"><i class="fa fa-chevron-up"></i></a>
+                       <a class="cal-arrow" href="#oct-week-4"><i class="fa fa-chevron-up"></i></a>
+                     </header>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a href="#schedule"  class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                   </div>
+                   <div class="cal-month -november">
+                     <header class="cal-header">
+                       <a class="cal-link" href="#nov-week-1"><span>November</span></a>
+                       <a class="cal-arrow"><i class="fa fa-chevron-up"></i></a>
+                     </header>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a href="#schedule" class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a href="#schedule" class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a href="#schedule" class="cal-day"></a>
+                     <a href="#schedule" class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                   </div>
+                   <div class="cal-month -december">
+                     <header class="cal-header">
+                       <a class="cal-link"><span>December</span></a>
+                       <a class="cal-arrow" href="#nov-week-1"><i class="fa fa-chevron-down"></i></a>
+                       <a class="cal-arrow" href="#oct-week-3"><i class="fa fa-chevron-down"></i></a>
+                     </header>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a href="#schedule" class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a href="#schedule" class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                   </div>
+                   <div class="cal-month -january">
+                     <header class="cal-header">
+                       <div class="cal-link"><span>January</span></div>
+                       <a class="cal-arrow" href="#oct-week-4"><i class="fa fa-chevron-down"></i></a>
+                     </header>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                     <a class="cal-day"></a>
+                   </div>
+                 </div>
+                 <div class="cal-scene -schedule">
+                   <div class="cal-item">
+                     <div class="cal-time"><span>08:00</span></div>
+                     <div class="cal-task">
+                       <p>wake up</p>
+                     </div>
+                   </div>
+                   <div class="cal-item -long">
+                     <div class="cal-time"><span>12:15</span></div>
+                     <div class="cal-task">
+                       <p>meeting with the team, discussing the project requirements</p>
+                     </div>
+                   </div>
+                   <div class="cal-item">
+                     <div class="cal-time"><span>13:00</span></div>
+                     <div class="cal-task">
+                       <p>lunch with Peter</p>
+                       <a><i class="fa fa-map-marker"></i>cafe <q>Petit brasserie</q></a>
+                     </div>
+                   </div>
+                   <div class="cal-item">
+                     <div class="cal-time"><span>14:30</span></div>
+                     <div class="cal-task">
+                       <p>call with Johnathan and Stevie</p>
+                     </div>
+                   </div>
+                   <div class="cal-item -long">
+                     <div class="cal-time"><span>16:45</span></div>
+                     <div class="cal-task">
+                       <p>project presentation</p>
+                       <a><i class="fa fa-map-marker"></i>Head Office</a>
+                     </div>
+                   </div>
+                   <div class="cal-item">
+                     <div class="cal-time"><span>18:00</span></div>
+                     <div class="cal-task">
+                       <p>call with Johnathan and Stevie</p>
+                     </div>
+                   </div>
+                   <div class="cal-item -long">
+                     <div class="cal-time"><span>19:00</span></div>
+                     <div class="cal-task">
+                       <p>David's birthday party</p>
+                       <a><i class="fa fa-map-marker"></i>bar <q>Tailor's John</q></a>
+                     </div>
+                   </div>
+                   <div class="cal-item">
+                     <div class="cal-time"></div>
+                     <div class="cal-task"></div>
+                   </div>
+                 </div>
+               </section>
+             </main>
+            
+      </div>
+      
+       <div class="two">
+           
+         <section class="form-user">
+           <form>
+             <div class="row">
+               <div class="col-md-12 mb-5">
+                 <h3>Register Patient</h1>
+                 <hr/>
+               </div>
+             </div>
+     
+             <div class="row">
+               <div class="col-md-6 mb-4">
+
+                 <div class="form-outline">
+                   <label class="form-label" for="firstName">Name</label>
+                   <input type="text" id="firstName" class="form-control form-control-lg" />
+                 </div>
+
+               </div>
+               <div class="col-md-6 mb-4">
+
+                 <div class="form-outline">
+                   <label class="form-label" for="lastName">National ID Number</label>
+                   <input type="text" id="lastName" class="form-control form-control-lg" />
+                 </div>
+
+               </div>
+             </div>
+
+             <div class="row">
+               <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                 <div class="form-outline datepicker w-100">
+                   <label for="birthdayDate" class="form-label">Birthday</label>
+                   <input type="date" class="form-control form-control-lg" id="birthdayDate" />
+                 </div>
+
+               </div>
+               <div class="col-md-6 mb-4">
+
+                 <h6 class="mb-2 pb-1">Gender: </h6>
+
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                     value="option1"  />
+                     <label class="form-check-label" for="maleGender">Male</label>
+                   </div>
+                   
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                     value="option2" />
+                     <label class="form-check-label" for="femaleGender">Female</label>
+                 </div>
+
+               </div>
+             </div>
+
+             <div class="row">
+               <div class="col-md-6 mb-4 pb-2">
+
+                 <div class="form-outline">
+                   <label class="form-label" for="emailAddress">Email</label>
+                   <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                 </div>
+
+               </div>
+
+
+               <div class="col-md-6 mb-4 pb-2">
+
+                 <div class="form-outline">
+                   <label class="form-label" for="phoneNumber">Phone Number</label>
+                   <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                 </div>
+               </div>      
+
+             <div class="col-md-6 mb-4 pb-2">
+               <div class="form-outline">
+                 <label class="form-label" for="password">password</label>
+                 <input type="password" id="password" class="form-control form-control-lg" />
+               </div>
+             </div>
+
+
+             
+             <div class="col-md-6 mb-4">
+               <div class="form-outline">
+                 <label class="form-label" for="confirm password">confirm password</label>
+                 <input type="password" id="confirm_password" class="form-control form-control-lg" />
+               </div>
+             </div>
+
+             <div class="row">
+               <div class="col-md-6 mb-4 pb-2">
+
+                 <label class="form-label select-label">Choose option</label>
+                 <select class="select form-control">
+                   <option value="1">Choose option</option>
+                   <option value="2">Ptient</option>
+                 
+
+                 </select>
+
+               </div>
+               <div class="col-md-6 mb-4 pb-2">
+                 <label class="form-label select-label">Upload File</label>
+                 <input type="file" class="form-control"/>
+               </div>
+             </div>
+
+
+             <div class="row">
+               <div class="col-md-12 mb-4 mt-3 text-center ">
+                 <input class="btn btn-primary btn-lg w-25" type="submit" value="Save" />
+               </div>
+             </div>
+
+                
+           </form>
+         </section>
+           
+       </div>
+
+
+       <div class="three">
+         
+         <section class="form-user">
+           <form>
+             <div class="row">
+               <div class="col-md-12 mb-5">
+                 <h3>Edit Patient</h1>
+                 <hr/>
+               </div>
+             </div>
+             <div class="row search">
+               <div class="col-md-9">
+                 <input type="text" id="firstName" class="form-control form-control-lg" placeholder="search" />
+               </div>
+               <div class="col-md-3">
+                 <input class="btn btn-success btn-lg w-25" type="button" value="Search" />
+               </div>
+              
+             </div>
+
+             <hr/>
+             <div class="row">
+               <div class="col-md-6 mb-4">
+
+                 <div class="form-outline">
+                   <label class="form-label" for="firstName">Name</label>
+                   <input type="text" id="firstName" class="form-control form-control-lg" />
+                 </div>
+
+               </div>
+               <div class="col-md-6 mb-4">
+
+                 <div class="form-outline">
+                   <label class="form-label" for="lastName">National ID Number</label>
+                   <input type="text" id="lastName" class="form-control form-control-lg" />
+                 </div>
+
+               </div>
+             </div>
+
+             <div class="row">
+               <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                 <div class="form-outline datepicker w-100">
+                   <label for="birthdayDate" class="form-label">Birthday</label>
+                   <input type="date" class="form-control form-control-lg" id="birthdayDate" />
+                 </div>
+
+               </div>
+               <div class="col-md-6 mb-4">
+
+                 <h6 class="mb-2 pb-1">Gender: </h6>
+
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                     value="option1"  />
+                     <label class="form-check-label" for="maleGender">Male</label>
+                   </div>
+                   
+                   <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                     value="option2" />
+                     <label class="form-check-label" for="femaleGender">Female</label>
+                 </div>
+
+               </div>
+             </div>
+
+             <div class="row">
+               <div class="col-md-6 mb-4 pb-2">
+
+                 <div class="form-outline">
+                   <label class="form-label" for="emailAddress">Email</label>
+                   <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                 </div>
+
+               </div>
+
+
+               <div class="col-md-6 mb-4 pb-2">
+
+                 <div class="form-outline">
+                   <label class="form-label" for="phoneNumber">Phone Number</label>
+                   <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                 </div>
+               </div>      
+
+             <div class="col-md-6 mb-4 pb-2">
+               <div class="form-outline">
+                 <label class="form-label" for="password">password</label>
+                 <input type="password" id="password" class="form-control form-control-lg" />
+               </div>
+             </div>
+
+
+             
+             <div class="col-md-6 mb-4">
+               <div class="form-outline">
+                 <label class="form-label" for="confirm password">confirm password</label>
+                 <input type="password" id="confirm_password" class="form-control form-control-lg" />
+               </div>
+             </div>
+
+             <div class="row">
+               <div class="col-md-6 mb-4 pb-2">
+
+                 <label class="form-label select-label">Choose option</label>
+                 <select class="select form-control">
+                   <option value="1">Choose option</option>
+                   <option value="2">Ptient</option>
+                   
+
+                 </select>
+
+               </div>
+               <div class="col-md-6 mb-4 pb-2">
+                 <label class="form-label select-label">Upload File</label>
+                 <input type="file" class="form-control"/>
+               </div>
+             </div>
+
+
+             <div class="row">
+               <div class="col-md-12 mb-4 mt-3 text-center ">
+                 <input class="btn btn-primary btn-lg w-25" type="submit" value="Save" />
+               </div>
+             </div>
+
+             <div class="row">
+              <div class="col-md-12 mb-4 mt-3 text-center ">
+                <input class="btn btn-primary btn-lg w-25" type="Delete" value="Delete Patient" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 mb-4 mt-3 text-center ">
+                <input class="btn btn-primary btn-lg w-25" type="absence" value="Absence" />
+              </div>
+            </div>
+
+                
+           </form>
+         </section>
+
+
+
+       </div>
+
+       <div class="four"> 
+
+        <section class="appointment" id="appointment">
+
+          <h1 class="heading"> <span>appointment</span> now </h1>    
+      
+          <div class="row">
+      
+      
+              <form  method="post">
+              
+            
+                  <h3>make appointment</h3>
+                  <input type="text"name="name" placeholder="your name" class="box">
+                  <input type="number"name="number" placeholder="your number" class="box">
+                  <input type="email"name="email" placeholder="your email" class="box">
+                  <input type="date"name="date" class="box">
+                  <input type="submit" name="submit" value="appointment now" class="btn">
+              </form>
+      
+          </div>
+      
+      </section>
+
+
+       </div>
+
+       <div class="five"> 
+        <section>
+         <div class="card">
+           <img src="image/resp.jpg" alt="John" style="width:50%">
+           <h1>John Doe</h1>
+           <p class="title">Receptionist</p>
+           <p>Luxor University</p>
+           <div style="margin: 24px 0;">
+             <a href="#"><i class="fa fa-dribbble"></i></a> 
+             <a href="#"><i class="fa fa-twitter"></i></a>  
+             <a href="#"><i class="fa fa-linkedin"></i></a>  
+             <a href="#"><i class="fa fa-facebook"></i></a> 
+           </div>
+           <p><button>Contact</button></p>
+         </div>
+        </section>
+       </div>
+
+       <div class="six">
+         <section style="width: 50vw; margin-left: 5%;">
+          <table class="table table-hover" style="width: 50vw;">
+              <thead style="background-color: #2196f3; color: white;">
+                <tr>
+                  <td>Patient Name</td>
+                  <td>Date of Appointment</td>
+                  <td>Actions</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>
+                  <input type="button" class="btn btn-danger" value="Delete" style="background-color: red; color: white;"/>
+                  </td>
+                </tr>
+              </tbody>
+          </table>
+         </section>
+       </div>
+
+     </div>
+    </div>
+  </div>
+
+ 
+
+
+  <script>
+    //for the toggle Menu
+    let menuToggle = document.querySelector('.menuToggle');
+    let navigation = document.querySelector('.navigation');
+
+    menuToggle.onclick = function(){
+        navigation.classList.toggle('active');
+    }
+
+    //for item inside the list of side menu
+    let list = document.querySelectorAll('.list');
+    function activeLink()
+    {
+     list.forEach((item)=> 
+       item.classList.remove('active'));
+
+     this.classList.add('active');
+    
+    }
+
+    list.forEach((item)=> 
+     item.addEventListener('click' , activeLink) 
+    );
+
+    //for content of sidebar 
+
+    let tabsArray = Array.from(list);
+    let divs = document.querySelectorAll('.content > div');
+    let divsArray = Array.from(divs);    
+
+    tabsArray.forEach((ele)=> {
+     ele.addEventListener('click' ,  function(e){
+         divsArray.forEach((div)=> {
+           div.style.display = "none";
+         });
+       document.querySelector(e.currentTarget.dataset.cont).style.display =  " block"
+     });
+    });
+    
+    
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
